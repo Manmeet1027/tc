@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e1f5fe"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#e1f5fe"
+
+    >
+
+    <ImageView
+        android:layout_width="150dip"
+        android:layout_height="150dip"
+        android:background="@drawable/profile_image_back"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/profile_pic"
+        android:layout_marginTop="20dip" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/editext_rounded_corner"
+        android:inputType="textPersonName"
+        android:hint=" Full Name"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/editext_rounded_corner"
+        android:inputType="textPersonName"
+        android:hint=" Email"
+        android:ems="10"
+        android:id="@+id/editText1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/editext_rounded_corner"
+
+        android:hint=" Age"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"/>
+
+    <Spinner
+        android:drawSelectorOnTop="true"
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/editext_rounded_corner"
+        >
+    </Spinner>
+
+    <Button
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:text="REgister"
+        android:textColor="#ffffff"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip"
+        android:background="#3289c8"/>
+</LinearLayout>
+    </ScrollView>
